@@ -1,0 +1,53 @@
+.container {
+  background: #a19f9f;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 2rem;
+
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+.jokes {
+  .joke {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: left;
+
+    .joke-text {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .text {
+      margin-bottom: 0.5rem;
+    }
+
+    .joke-buttons {
+      button {
+        margin-right: 0.5rem;
+        cursor: pointer;
+      }
+
+      button:last-child {
+        color: red;
+      }
+    }
+  }
+}
